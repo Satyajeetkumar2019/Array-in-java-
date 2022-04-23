@@ -1,0 +1,27 @@
+class Addation {
+static void add(){
+System.out.println("no param constructor :");
+}
+static void add(int x){
+System.out.println("int  param constructor :");
+}
+static void add(int x,int y){
+System.out.println("two  param constructor :");
+}
+static void add(int x,int y,int z){
+System.out.println("three  param constructor :");
+}
+static void add(int x,int y,int z,int s){
+System.out.println("for  param constructor :");
+}
+}//
+class Test_05{ 
+
+	public static void main(String[] args) {
+	
+Addation add=new Addation();
+add.add();
+
+		System.out.println("Hello World!");
+	}//end mm
+}//end class
